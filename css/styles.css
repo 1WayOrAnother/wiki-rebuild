@@ -1,14 +1,35 @@
-.wiki_logo {
+html, body {
+  font-family: sans-serif;
+  background-color: #f6f6f6;
+}
+.side_panel {
+  position: absolute;
+  top: 0;
+  /*width: 10em;*/
+  left: 0;
+  /*margin-top: 1.125em;*/
+}
+.side_ul_tags {
+  font-size: 0.75em;
+  margin-top: 1.25em;
+  border-bottom: 1px solid #d8d8d8;
+  color: #444444;
+}
+#wiki_logo {
   /*       top right bottom left */
+  /*width: 10em;
+  height: 160px;*/
   padding: 0.09em 0 0 1.1em;
+  margin: 0 0.6em 0 0.7em;
+  margin-bottom: 2em;
 }
 .space {
   margin-top: 10%;
 }
-.side_nav_ul {
+.side_ul {
   list-style: none;
 }
-.side_nav_ul li {
-  line-height: 1.125em;
-  font-size: 0.75em;
+.side_ul li {
+  line-height: 1.5em;
+  font-size: 0.8em;
 }
