@@ -1,19 +1,10 @@
 html, body {
   font-family: sans-serif;
   background-color: #f6f6f6;
+  list-style: none;
 }
-.side_panel {
-  position: absolute;
-  top: 0;
-  /*width: 10em;*/
-  left: 0;
-  /*margin-top: 1.125em;*/
-}
-.side_ul_tags {
-  font-size: 0.75em;
-  margin-top: 1.25em;
-  border-bottom: 1px solid #d8d8d8;
-  color: #444444;
+ul {
+  list-style: none;
 }
 #wiki_logo {
   /*       top right bottom left */
@@ -23,13 +14,45 @@ html, body {
   margin: 0 0.6em 0 0.7em;
   margin-bottom: 2em;
 }
-.space {
-  margin-top: 10%;
-}
-.side_ul {
-  list-style: none;
+.side_panel {
+  position: absolute;
+  top: 0;
+  /*width: 10em;*/
+  left: 0;
+  /*margin-top: 1.125em;*/
 }
 .side_ul li {
   line-height: 1.5em;
   font-size: 0.8em;
+}
+.side_ul_tags {
+  font-size: 0.75em;
+  margin-top: 1.25em;
+  border-bottom: 1px solid #d8d8d8;
+  color: #444444;
+}
+
+#headr_nav ul {
+  flex-direction: column;
+  margin-left: 0.75em;
+
+}
+#headr_nav li{
+  margin-top: 0.5em;
+  margin-left: 0.75em;
+  font-size: 0.75em;
+  line-height: 1.125em;
+}
+
+.container {
+  background-color: #fff;
+}
+
+#main_nav {
+  color: #222;
+  font-size: 0.8em;
+}
+#mn_right {
+  flex-direction: row;
+  float: right;
 }
