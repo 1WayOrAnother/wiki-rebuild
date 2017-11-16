@@ -1,3 +1,14 @@
+.wiki_logo {
+  /*       top right bottom left */
+  padding: 0.09em 0 0 1.1em;
+}
 .space {
   margin-top: 10%;
+}
+.side_nav_ul {
+  list-style: none;
+}
+.side_nav_ul li {
+  line-height: 1.125em;
+  font-size: 0.75em;
 }
