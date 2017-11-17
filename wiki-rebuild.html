@@ -7,7 +7,10 @@
   </head>
   <body>
     <div class="wrapper">
+      <!--  Entire page is contained in giant a 12x12 grid-->
+      <!--  Main Row  START-->
       <div class="row">
+        <!--  Sidebar Column uses the 2 left most Columns -->
         <div class="col-lg-2">
           <div class="side_panel">
             <img src="img/enwiki.png" id="wiki_logo" alt="Wiki Logo">
@@ -101,7 +104,7 @@
           </div>
         </div>
         <div class="col-lg-10">
-          <ul class="d-flex justify-content-end hdr_nav" id="headr_nav">
+          <ul class="d-flex justify-content-end" id="headr_nav">
             <li>Not logged in</li>
             <li ><a href="#">Talk</a></li>
             <li><a href="#">Contributions</a></li>
@@ -120,24 +123,59 @@
                 </li>
               </ul>
             </div>
-
-
-              <!-- <div class="d-flex align-items-end" id="mn_left">
-                <li class="nav-item float-right">
-                  <a class="nav-link" href="#">Read</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">View source</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">View history</a>
-                </li>
-                <form class="form-inline my-2 my-lg-0">
-                  <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                </form>
+            <!-- PR Banner -->
+            <div class="row">
+              <div class="col-lg-12">
+                <a href="#">
+                  <div class="card bg-light mb-4 mt-4">
+                    <div class="card-body" id="pr_banner">
+                      <p class="card-text text-center">
+                        <img src="img/pr_banner.png" alt="Picture of a DNA particle">
+                        Participate in an international science photo competition!
+                        <a href="#" class="btn btn-primary float-right">Learn more</a>
+                      </p>
+                    </div>
+                  </div>
+                </a>
               </div>
-            </ul> -->
+            </div>
 
+            <!-- Welcome to Wiki -->
+            <div class="row">
+              <div class="col-lg-12">
+                <div class="card bg-light">
+                  <div class="card-body">
+                    <div class="welcome_bx">
+                      <h4 id="welcome_title">
+                        Welcome to <a href="#">Wikipedia</a>,
+                      </h4>
+                        <p id="wl_1">
+                          the <a href="#">free</a> <a href="#">encylopedia</a> that <a href="#">anyone can edit</a>.
+                        </p>
+                        <p id="wl_2">
+                          <a href="#">5,512,756</a> articles in <a href="#">English</a>
+                        </p>
+                      </div>
+                    <!-- </h4> -->
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-6">
+                <div class="card alert-success">
+                  <h5 class="card-header">From today's featured article</h5>
+                  <div class="card-body">
+                    <img class="card-img-top" src="..." alt="Card image cap">
+                    <h6 class="card-title">Title</h6>
+                    <p class="card-text">text</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-6">
+                2
+              </div>
+            </div>
             ss
           </div>
         </div>
